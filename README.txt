@@ -1,100 +1,69 @@
-
 =========================================
          Ebooks Library Project
 =========================================
 
-Ebooks Library is a dynamic online platform that allows users to explore, purchase, 
-and manage ebooks. It features a user-friendly interface for customers and an admin 
-panel with different privileges for managing the library's operations.
+Ebooks Library is an online platform for exploring, purchasing, and managing ebooks, featuring a user-friendly interface and an admin panel for library management.
 
 =========================================
-          Project Details
+          Project Overview
 =========================================
 
-Project Name: Ebooks Library
-Purpose: Online library for purchasing books
-Development Tools: PHP, phpMyAdmin, Visual Studio Code
-Type: Dynamic Website
+- **Name**: Ebooks Library
+- **Purpose**: Online book purchasing
+- **Tools**: PHP, phpMyAdmin, Visual Studio Code
+- **Type**: Dynamic Website
 
 =========================================
-            Features
+            Key Features
 =========================================
 
-1. USER FEATURES
-   - Browse books and explore categories
-   - Purchase books with a seamless process
-   - User dashboard to manage purchases and transactions
-
-2. ADMIN FEATURES
-   - Admin panel for privileged operations
-   - Manage book inventory (add, update, delete books)
-   - View and manage registered users
-   - Monitor and manage book purchase orders
+- **User**: Browse, purchase, and manage books
+- **Admin**: Manage inventory, users, and orders
 
 =========================================
-     Technology Stack Used
+     Technology Stack
 =========================================
 
-Frontend: HTML5, CSS3, JavaScript
-Backend: PHP (Hypertext Preprocessor)
-Database: phpMyAdmin (MySQL)
-Development Environment: Visual Studio Code
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
 
 =========================================
-     Installation and Setup
+     Installation
 =========================================
 
-1. Clone the Repository
-   Use the command: git clone https://github.com/your-repo/ebooks-library.git
-
-2. Set Up the Database
-   - Open phpMyAdmin and create a database named `ebooks_library`.
-   - Import the provided SQL file (located in the `database` folder).
-
-3. Configure the Project
-   - Update `config.php` with your database credentials:
-     $host = 'localhost';
-     $user = 'root';
-     $password = '';
-     $database = 'ebooks_library';
-
-4. Run the Project
-   - Place the project folder in the `htdocs` directory.
-   - Start your local server using XAMPP or WAMP.
-   - Access the project in your browser at `http://localhost/ebooks-library`.
+1. **Clone**: `git clone https://github.com/your-repo/ebooks-library.git`
+2. **Database**: Create `ebooks_library` in phpMyAdmin and import SQL.
+3. **Configure**: Update `config.php` with database credentials.
+4. **Run**: Place in `htdocs`, start server, visit `http://localhost/ebooks-library`.
 
 =========================================
          Directory Structure
 =========================================
 
-ebooks-library/
-├── assets/               (CSS, JS, and images)
-├── database/             (SQL file for database setup)
-├── admin/                (Admin panel files)
-├── includes/             (Reusable components like header and footer)
-├── config.php            (Database configuration)
-├── index.php             (Main landing page)
-└── README.txt            (Project documentation)
+- **assets/**: CSS, JS, images
+- **database/**: SQL setup
+- **admin/**: Admin files
+- **includes/**: Reusable components
+- **config.php**: Database config
+- **index.php**: Landing page
 
 =========================================
         Future Enhancements
 =========================================
 
-- Add user reviews and ratings for books.
-- Implement advanced search filters (e.g., by genre, author, or price).
-- Integrate payment gateways for online transactions.
-- Develop a mobile-responsive design.
+- User reviews, advanced search, payment integration, mobile design.
 
 =========================================
           Contributor
 =========================================
 
-Developer: Irham Raza
+- **Developer**: Irham Raza
 
 =========================================
              License
 =========================================
 
-This project is licensed under the MIT License.
+Licensed under the MIT License.
 
 =========================================
